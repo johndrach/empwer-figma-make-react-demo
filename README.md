@@ -1,101 +1,46 @@
-# Responsive Rollover Management Interface
+# Empower Figma Make React Demo
 
-A responsive React application built with TypeScript and Tailwind CSS v4, featuring a rollover management interface with custom breakpoints and mobile-first design.
+This project is a modern React application template designed to demonstrate how to build responsive, accessible, and customizable UI components using Figma designs and popular open-source libraries. It is intended as a starting point for teams or individuals looking to rapidly prototype or build production-ready React apps with a focus on design fidelity and developer experience.
 
-## Features
-
-- ✅ Responsive design with custom breakpoints (588px, 375px, 320px)
-- ✅ Two main cards with specific responsive behavior
-- ✅ Mobile-first approach with proper stacking
-- ✅ Language toggle with conditional text hiding
-- ✅ Modern React + TypeScript setup
-- ✅ Tailwind CSS v4 with custom theme
+## Project Overview
+- **Purpose:** Showcase how to convert Figma designs into reusable React components and templates.
+- **Features:**
+  - Responsive layout templates
+  - Custom UI components (Accordion, Dialog, Drawer, etc.)
+  - Integration with Tailwind CSS for utility-first styling
+  - Accessibility-first approach using Radix UI primitives
+  - Example Figma asset integration
 
 ## Tech Stack
+- **React** (with Vite for fast development)
+- **TypeScript**
+- **Tailwind CSS** (with PostCSS)
+- **Radix UI** (for accessible primitives)
+- **Lucide React** (for icons)
+- **Embla Carousel** (for carousel functionality)
+- **Vaul** (for drawer component)
 
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS v4** - Styling framework
-- **Vite** - Build tool and dev server
+## Getting Started
 
-## Quick Start
-
-### Prerequisites
-- Node.js 18+ 
-- npm, yarn, or pnpm
-
-### Installation
-
-1. **Clone or download the project files**
-
-2. **Install dependencies:**
-   ```bash
+1. **Install dependencies:**
+   ```sh
    npm install
-   # or
-   yarn install
-   # or
-   pnpm install
    ```
-
-3. **Start the development server:**
-   ```bash
+2. **Start the development server:**
+   ```sh
    npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
    ```
+3. **Open your browser:**
+   Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
-4. **Open your browser** and navigate to `http://localhost:5173`
+## Folder Structure
+- `components/` - Custom and wrapped UI components
+- `imports/` - Shared templates and SVG assets
+- `styles/` - Global styles (Tailwind CSS)
+- `src/` - Main entry point
 
-### Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
-```
-
-The built files will be in the `dist/` folder.
-
-## Project Structure
-
-```
-├── src/
-│   └── main.tsx           # React entry point
-├── App.tsx                # Main app component
-├── components/
-│   ├── ResponsiveFlowTemplate.tsx  # Main interface component
-│   ├── ui/                # ShadCN/UI components
-│   └── figma/            # Figma-specific components
-├── styles/
-│   └── globals.css       # Global styles & Tailwind config
-├── imports/
-│   └── svg-z9smu39mje.ts # SVG path definitions
-└── Configuration files...
-```
-
-## Responsive Breakpoints
-
-- **Above 588px:** Cards display side by side
-- **588px and below:** Cards stack vertically, "Let us help you" on top
-- **375px and below:** "Español" text hidden, icon remains visible
-- **320px:** Minimum supported width
-
-## Development
-
-- **Hot reload** enabled for instant feedback
-- **TypeScript** for type checking
-- **ESLint** for code quality
-- **Tailwind CSS v4** for modern styling
-
-## Browser Support
-
-- Modern browsers (Chrome 90+, Firefox 90+, Safari 14+, Edge 90+)
-- Mobile browsers (iOS Safari, Android Chrome)
+## Repository
+[GitHub: johndrach/empwer-figma-make-react-demo](https://github.com/johndrach/empwer-figma-make-react-demo)
 
 ## License
-
-MIT License - feel free to use for personal or commercial projects.
+MIT
